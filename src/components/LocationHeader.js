@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const Header = ({ setSearchResults }) => {
+const LocationHeader = ({ setSearchResults }) => {
   const [search, setSearch] = useState("");
 
   const handleSearch = async (e) => {
@@ -36,4 +36,4 @@ const Header = ({ setSearchResults }) => {
   );
 };
 
-export default Header;
+export default LocationHeader;
